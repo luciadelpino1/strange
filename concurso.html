@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Concurso</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<main>
+		<header>
+			<article id="logo"><a href="index.html"><img src="img/logo.png"></a></article>
+		</header>
+		<nav>
+			<ul>
+        		<li><a href="concurso.html" class="boton">Concurso</a></li>
+        		<li><a href="noticias.html">Noticias</a></li>
+        		<li><a href="personajes.html">Personajes</a></li>
+    		</ul>
+    	</nav>
+    	<section>
+    		<article class="contenedor"></article>
+    		<h1 class="titulo">Concurso</h1>
+    		<p class="parrafo"><strong style="color: rgb(254, 236, 44);">¿Querés ser uno de los ganadores de nuestro concurso?</strong><br>Lo único que tenes que hacer es contestar las siguientes<br> preguntas  correctamente y te ganas uno de los premios!!</p>
+    		<h3>Premios:</h3>
+    		<p class="premio1">1° Premio:<br>Kit original que contiene el Ojo de Agamotto, los pins de la capa de levitacion y el anillo de la honda.</p><br><br>
+    		<img src="img/formulario1.png" class="foto1">
+    		<p class="premio2">2° Premio:<br><br>Comic original de <i>Doctor Strange: Nexus of Nightmares #1</i></p><br><br>
+    		<img src="img/formulario2.jpg" class="foto2">
+    		<p class="premio3">3° Premio:<br><br>Dos entradas para ver <i>Doctor Strange and the Multiverse of Madness</i></p>
+    		<form method="post" action="mailto: luciadelpino0401@gmail.com">
+    			<p class="frase">Primero completá tus datos</p>
+    			<label>Nombre y Apellido</label><br>
+    			<input type="text" name="nombre" placeholder="Juan Perez" required><br>
+
+    			<label>Correo Electronico</label><br>
+				<input type="email" name="mail" placeholder="correo@uces.edu.ar" required><br><br>
+
+				<p class="frase2">Ahora sí! A contestar las preguntas!</p>
+				<label>¿Qué le paso a Dr Strange en las manos?</label><br>
+				<select>
+					<option>Accidente automovilistico</option>
+					<option>Accidente culinario</option>
+					<option>No le pasó nada</option>
+				</select required><br><br>
+				<label>¿Cómo fallece La Ancestral?</label><br>
+				<select>
+					<option>Por una espada</option>
+					<option>En el quirófano</option>
+					<option>No muere en la película</option>
+				</select required><br><br>
+				<label>¿Qué tipo de cirujano es el Dr. Strange?</label><br>
+				<select>
+					<option>Cirujano plástico</option>
+					<option>Cirujano cardíaco</option>
+					<option>Neurocirujano</option>
+				</select required><br><br>
+				<label>Subí acá tu dibujo de Dr. Strange para poder participar!</label><br>
+				<input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg"><br>
+
+				<br><input type="submit" name="enviar" value="Enviar" class="enviar">
+    		</form>
+    		
+    	</section>
+    	<footer>
+			<ul>
+				<li class="uces">
+			<a href="https://www.uces.edu.ar/" target="_blank"><img src="img/uces.png"></a>
+				</li>
+				<li>
+			<a href="#"><p>Lucia del Pino</p></a>
+				</li>
+				<li class="marvel">	
+			<a href="https://www.marvel.com/" target="_blank"><img src="img/marvel.png"></a>
+				</li>
+				<li class="disney">
+			<a href="https://www.disneyplus.com/movies/marvel-studios-doctor-strange/4GgMJ1aHKHA2" target="_blank"><img src="img/disney.png"></a>
+				</li>
+				<li>	
+			<a href="https://www.instagram.com/marvel/" target="_blank"><img src="img/instagram.png"></a>
+				</li>
+				<li>
+			<a href="https://twitter.com/marvellatam?s=21&t=uhOCD04AHX8Rgv750wkoqQ" target="_blank"><img src="img/twitter.png"></a>
+				</li>
+			</ul>
+		</footer>
+    </main>
+</body>
+</html>

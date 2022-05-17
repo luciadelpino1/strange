@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #5D1414;
+}
+
+main{
+	width: 992px;
+	height: 607px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 992px;
+	height: 71px;
+	background-color: #7E1710;
+}
+
+#logo{
+	margin-left: 21.5px;
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+nav li{
+	display: inline-block;
+    width:15%;
+    padding:10px 5px;
+    text-align: center;
+    color: #fff;
+    float: right;
+    margin-top: -39px;
+}
+nav li:hover{
+    background-color: rgb(26, 53, 94);
+    color: white;
+}
+
+section{
+	width: 992px;
+	height: 496px;
+}
+
+footer{
+	width: 992px;
+	height: 40px;
+	background-color: #1d1d1b;
+}
+footer li{
+	display: inline-block;
+}
+.uces{
+	padding: ;
+	margin-left: 21.5px;
+}
+.marvel{
+	margin-left: 340px;
+	padding-top: 10px;
+}
+.disney{
+	margin-left: 865px;
+	padding-bottom: -20px;
+}
+
+p{
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+
+h1{
+	color: #fff;
+	font-size: 40px;
+	font-family: 'Merriweather', serif;
+	padding-left: 21.5px;
+	margin-top: -200px;
+}
+
+h3{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Merriweather', serif;
+	float: right;
+	margin-right: 330px;
+	margin-top: -60px;
+}
+
+.texto{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+	color: #fff;
+	padding-left: 21.5px;
+}
+
+.parrafo{
+	font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+	color: #fff;
+	padding-left: 21.5px;
+}
+
+.contenedor{
+	width: 992px;
+	height: 496px;
+	background-color: rgb(26, 53, 94);
+}
+
+.titulo{
+	font-family: 'Merriweather', serif;
+	font-family: 15x;
+	color: #fff;
+	padding-left: 21.5px;
+	margin-top: -470px;
+}
+
+.boton{
+    color: rgb(254, 236, 44);
+    width: 15%;
+    padding: 10px 5px;
+}
+
+.uno{
+	margin-left: 15px;
+}
+
+.texto1{
+	width: 230px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	float: left;
+	margin-left: 15px;
+	text-align: justify;
+}
+
+.texto2{
+	width: 230px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	margin-left: 258px;
+	text-align: justify;
+}
+
+.texto3{
+	width: 230px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	margin-left: 500px;
+	margin-top: -133px;
+	text-align: justify;
+}
+
+.texto4{
+	width: 230px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	float: right;
+	margin-right: 18px;
+	margin-top: -148px;
+	text-align: justify;
+}
+
+.premio1{
+	font-family: Raleway, sans-serif;
+	font-size: 15px;
+	margin-left: 573px;
+	color: white;
+	margin-top: -30px;
+	width: 200px;
+	text-align: justify;
+}
+
+.foto1{
+	float: right;
+	padding-right: 15px;
+	margin-top: -150px;
+}
+
+.foto2{
+	float: right;
+	padding-right: 15px;
+	margin-top: -100px;
+}
+
+.premio2{
+	font-family: Raleway, sans-serif;
+	font-size: 15px;
+	margin-left: 573px;
+	color: white;
+	width: 200px;
+}
+
+.premio3{
+	font-family: Raleway, sans-serif;
+	font-size: 15px;
+	margin-left: 573px;
+	margin-top: 5px;
+	color: white;
+	width: 200px;
+}
+
+form{
+	width: 400px;
+	color: white;
+	padding-left: 21.5px;
+	font-family: Raleway, sans-serif;
+	font-size: 12px;
+	margin-top: -300px;
+}
+
+.frase{
+	font-family: Raleway, sans-serif;
+	font-size: 15px;
+	color: white;
+}
+
+.frase2{
+	font-family: Raleway, sans-serif;
+	font-size: 15px;
+	color: white;
+}
+
+.enviar{
+	width: 90px;
+	height: 30px;
+	background-color: rgb(254, 236, 44);
+}
+
+.subtitulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+	color: rgb(254, 236, 44);
+	padding-left: 21.5px;
+	width: 500px;
+}
+
+.imagen{
+	padding-left: 20px;
+}
+
+.imagen2{
+	margin-left: 530px;
+}
